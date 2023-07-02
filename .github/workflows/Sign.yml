@@ -6,6 +6,7 @@ on:
     workflows: ["Download IPA"]
     types:
       - completed
+  workflow_dispatch:
 jobs:
   Sign-Apps:
     runs-on: macos-latest
